@@ -135,7 +135,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             MyApplicationTheme {
-                val app = applicationContext as Application
+                val app = application
                 val viewModel: ChatViewModel = viewModel(
                     factory = ChatViewModel.provideFactory(app)
                 )
