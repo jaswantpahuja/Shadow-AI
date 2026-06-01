@@ -1,0 +1,6 @@
+{
+  "name": "Shadow AI",
+  "description": "An elegant, dark-themed AI chatbot that generates high-fidelity images using Google's Nano Banana 2 (Gemini 3.1 Flash Image Preview) model.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
